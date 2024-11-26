@@ -1,0 +1,25 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Laravel
+/vendor/
+*.env
+/storage/
+
+# C++
+build/
+*.o
+*.exe
